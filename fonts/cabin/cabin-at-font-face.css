@@ -1,0 +1,49 @@
+@font-face{font-family:"cabinregular";
+  src:url("regular/cabin-regular-webfont.eot");
+  src:url("regular/cabin-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("regular/cabin-regular-webfont.woff") format("woff"),
+    url("regular/cabin-regular-webfont.ttf") format("truetype");
+font-weight:normal; font-style:normal}
+@font-face{font-family:"cabinregular";
+  src:url("bold/cabin-bold-webfont.eot");
+  src:url("bold/cabin-bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("bold/cabin-bold-webfont.woff") format("woff"),
+    url("bold/cabin-bold-webfont.ttf") format("truetype");
+font-weight:700; font-style:normal}
+@font-face{font-family:"cabinregular";
+  src:url("bolditalic/cabin-bolditalic-webfont.eot");
+  src:url("bolditalic/cabin-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("bolditalic/cabin-bolditalic-webfont.woff") format("woff"),
+    url("bolditalic/cabin-bolditalic-webfont.ttf") format("truetype");
+font-weight:700; font-style:italic}
+@font-face{font-family:"cabinregular";
+  src:url("italic/cabin-italic-webfont.eot");
+  src:url("italic/cabin-italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("italic/cabin-italic-webfont.woff") format("woff"),
+    url("italic/cabin-italic-webfont.ttf") format("truetype");
+font-weight:normal; font-style:italic}
+@font-face{font-family:"cabinregular";
+  src:url("semibold/cabin-semibold-webfont.eot");
+  src:url("semibold/cabin-semibold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("semibold/cabin-semibold-webfont.woff") format("woff"),
+    url("semibold/cabin-semibold-webfont.ttf") format("truetype");
+font-weight:600; font-style:normal}
+@font-face{font-family:"cabinregular";
+  src:url("semibolditalic/cabin-semibolditalic-webfont.eot");
+  src:url("semibolditalic/cabin-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("semibolditalic/cabin-semibolditalic-webfont.woff") format("woff"),
+    url("semibolditalic/cabin-semibolditalic-webfont.ttf") format("truetype");
+font-weight:600; font-style:italic}
+@font-face{font-family:"cabinregular";
+  src:url("medium/cabin-medium-webfont.eot");
+  src:url("medium/cabin-medium-webfont.eot?#iefix") format("embedded-opentype"),
+    url("medium/cabin-medium-webfont.woff") format("woff"),
+    url("medium/cabin-medium-webfont.ttf") format("truetype");
+font-weight:500; font-style:normal}
+@font-face{font-family:"cabinregular";
+  src:url("mediumitalic/cabin-mediumitalic-webfont.eot");
+  src:url("mediumitalic/cabin-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("mediumitalic/cabin-mediumitalic-webfont.woff") format("woff"),
+    url("mediumitalic/cabin-mediumitalic-webfont.ttf") format("truetype");
+font-weight:500; font-style:italic}
+

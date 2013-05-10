@@ -1,0 +1,132 @@
+/** text-shadow: 0px 2px 3px #555;  **/
+/** .content{margin-left:auto; margin-right:auto; width:900px; outline:1px solid #000} **/
+/** header:before{content:""; position:fixed; top:300px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)} **/
+/**
+div.cabin-regular{font-family:"cabinregular";}
+div.cabin-bold{font-family:"cabinregular"; font-weight:700}
+div.cabin-bolditalic{font-family:"cabinregular"; font-weight:700; font-style:italic}
+div.cabin-italic{font-family:"cabinregular"; font-style:italic}
+div.cabin-medium{font-family:"cabinregular"; font-weight:500;}
+div.cabin-mediumitalic{font-family:"cabinregular"; font-style:italic}
+div.cabin-semibold{font-family:"cabinregular"; font-weight:600;}
+div.cabin-semibolditalic{font-family:"cabinregular"; font-weight:600; font-style:italic}
+**/
+
+body,html,div,header,main,footer,p,section,nav,ul,li,a,h1,h2,h3,h4,cite,code,abbr,pre,figure,figcaption,u,span{margin:0; padding:0}
+header,footer,main,figure,figcaption{display:block}
+html{overflow-y:scroll}
+html,body{height:100%}
+body{font-family:"Helvetica Neue", "cabinregular", Helvetica, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, Arial, sans-serif; text-align:center; -webkit-font-smoothing:antialiased; background-color:#939699}
+body:before{content:""; position:fixed; top:-15px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)}
+
+p{text-align:left; font-size:35px; line-height:45px; color:#000; margin:.75em; padding:.8em}
+
+.content{margin-right:auto; margin-left:auto; text-align:center; width:90%; background-color:#fff; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+pre{white-space:pre; white-space:pre-wrap; white-space:pre-line; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:-moz-pre-wrap; white-space:-hp-pre-wrap; word-wrap:break-word; padding:15px 15px 15px 5px; text-align:left; background-color:#ff6; outline:1px solid #e6db55; margin-bottom:15px}
+pre code{font-size:17px; line-height:1; font-weight:700; color:#cf1b41}
+p code{background-color:#ffff80; font-size:16px; font-weight:700; color:#cf1b41}
+code{font-family:"Source Code Proregular", monospace}
+
+
+cite{font-weight:600; font-size:19px}
+footer{background-color:#cf1b41; padding-bottom:10px}
+footer,footer p{color:#fff}
+footer p{margin-bottom:5px; padding-bottom:0}
+header{border-bottom:2px solid #939699}
+
+
+.branding{background:url("cfa-style-guide-title.png") 50% 50% no-repeat; height:300px; text-indent:-9999px}
+
+h2,h3,h4{line-height:1; margin-top:15px; margin-bottom:10px; text-shadow:#999 0px 2px 3px; border-top:1px solid #939699; border-bottom:1px solid #939699; background-color:#ccc; padding-top:5px; padding-bottom:5px}
+h2{font-size:48px}
+h3{font-size:40px}
+h4{font-size:35px}
+
+.clearleft{clear:left; float:none}
+
+
+
+
+img{display:block; font-size:0}
+
+.cabin{font-family:"cabinregular"}
+.oswald{font-family:"oswaldbook"}
+
+abbr{border:none; cursor:help; font-size:85%}
+abbr,.holla{text-transform:uppercase; font-variant:small-caps; letter-spacing:-1px}
+abbr.noholla,.noholla{text-transform:none; font-variant:normal}
+abbr.cfa{font-size:100%; font-weight:700; line-height:1}
+.noholla{text-decoration:none; font-family:cursive; font-size:85%; font-weight:700}
+
+th abbr{font-size:100%}
+
+em{}
+strong{}
+
+ul{list-style-type:none}
+li{text-align:left; text-indent:1em}
+
+a,a:link{color:#666; text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline; background-color:#666; color:#fff}
+a img{display:block; border:none}
+
+
+.box-shadow{-moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+
+figure{border-top:1px dotted #399fd3; border-bottom:1px dotted #399fd3; margin:5px auto}
+figcaption{display:block; margin-left:auto; margin-right:auto; text-align:center; font-weight:500; font-style:italic; font-size:17px; color:#444}
+figure img{border:1px solid #999; margin:5px auto; padding:5px; background-color:#fff}
+
+b{color:333; font-weight:500}
+strong{font-weight:700} /* b,strong{font-weight:bold} */
+
+
+
+/** tables **/
+table{border-collapse:collapse; border-spacing:0; padding-top:0.5em; padding-bottom:0.5em; margin:1.25em auto; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000; color:#000; width:80%}
+thead{background-color:#dbdbdb; text-shadow:#fff 0px 2px 3px}
+tbody{}
+tfoot{}
+tfoot p{padding:5px; font-size:15px; font-family:Arial, sans-serif; line-height:18px; margin: 0 auto}
+tfoot .cfa{font-size:15px; font-family:Arial, sans-serif}
+th{font-weight:700; text-align:center; vertical-align:top; font-size:20px; padding-top:0.5em; padding-bottom:0.5em; border-left:1px solid #999}
+td,caption{font-weight:normal; vertical-align:top}
+caption{text-align:center; font-style:normal; font-weight:500}
+caption p{margin:0; padding:5px; font-size:18px}
+tr{border-bottom:1px solid #ccc}
+tr:hover{background-color:#e2e2e2}
+thead tr{border-bottom:1px solid #999}
+thead tr:hover,tfoot tr:hover{background-color:transparent}
+td{text-indent:10px; padding:4px; text-align:left; font-size:18px}
+
+.stripey{background-color:#f2f2f2}
+
+
+
+::selection{background-color:#399fd3; padding-top:10px; padding-bottom:10px; color:#fff; font-weight:700}
+
+.cfa-text-red{color:#cf1b41}
+.cfa-bg-red{background-color:#cf1b41}
+
+.cfa-text-blue{color:#399fd3}
+.cfa-bg-blue{background-color:#399fd3}
+
+.cfa-text-grey{color:#939699}
+.cfa-bg-grey{background-color:#939699}
+
+.cfa-brigade-grey-text{color:#6d6e71}
+.cfa-brigade-grey-bg{background-color:#6d6e71}
+
+.kraken{width:750px}
+.oakland{width:406px}
+.chicago{width:639px}
+.cfalogo{width:400px}
+.flag-tag-example{width:539px}
+
+
+.thumbs{margin-left:auto; margin-right:auto; width:315px}
+.thumbs li{margin-top:5px; margin-bottom:5px; border:1px solid #999; width:315px}
+.thumbs img{margin:5px auto; border:2px solid #f1f1f1}
+
+.transbg{background-color:#399fd3}
+.fakecaption{display:block; margin:3px auto; text-align:center; font-size:24px; line-height:24px}

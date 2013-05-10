@@ -1,0 +1,29 @@
+http://codeforamerica.org/logos/
+<link href="i/brigade.codeforamerica.org.favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+/** gotham light 12pt body copy **.
+/** use all caps when adding subtitles to cfa logo **/
+/** gotham is font in all graphic text **/
+/** if no gotham, sans-serif, specifically cabin **/
+/** cabin can also be used with gotham, as a secondary font **/
+/** cabin http://www.fontsquirrel.com/fonts/cabin **/
+
+
+/** all html body copy is Cabin or Helvetica Neue **/
+
+
+select,input,button, textarea{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.05em}
+h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
+
+
+/** oswald can be used for specialty projects/reports !!! don't abuse!!!  **/
+/** oswald http://www.fontsquirrel.com/fonts/oswald  **/
+
+
+
+
+
+
+
+

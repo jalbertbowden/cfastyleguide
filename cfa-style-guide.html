@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code for America Style Guide</title>
+    <link rel="stylesheet" href="http://dev.bowdenweb.com/a/fonts/monospace/source-code-pro/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="fonts/oswald/oswald-regular-at-font-face.css" type="text/css" />
+    <link rel="stylesheet" href="fonts/cabin/cabin-at-font-face.css" type="text/css" />
+    <!--[if lt IE 9]> <script src="http:/dev.bowdenweb.com/a/js/html5.js"></script> <![endif]-->
+<style>
+/** text-shadow: 0px 2px 3px #555;  **/
+/** .content{margin-left:auto; margin-right:auto; width:900px; outline:1px solid #000} **/
+/** header:before{content:""; position:fixed; top:300px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)} **/
+/**
+div.cabin-regular{font-family:"cabinregular";}
+div.cabin-bold{font-family:"cabinregular"; font-weight:700}
+div.cabin-bolditalic{font-family:"cabinregular"; font-weight:700; font-style:italic}
+div.cabin-italic{font-family:"cabinregular"; font-style:italic}
+div.cabin-medium{font-family:"cabinregular"; font-weight:500;}
+div.cabin-mediumitalic{font-family:"cabinregular"; font-style:italic}
+div.cabin-semibold{font-family:"cabinregular"; font-weight:600;}
+div.cabin-semibolditalic{font-family:"cabinregular"; font-weight:600; font-style:italic}
+**/
+
+body,html,div,header,main,footer,p,section,nav,ul,li,a,h1,h2,h3,cite,code,abbr,pre,figure,figcaption,u{margin:0; padding:0}
+header,footer,main,figure,figcaption{display:block}
+html{overflow-y:scroll}
+html,body{height:100%}
+body{font-family:"Helvetica Neue", "cabinregular", Helvetica, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, Arial, sans-serif; text-align:center; -webkit-font-smoothing:antialiased; background-color:#939699}
+body:before{content:""; position:fixed; top:-15px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)}
+
+p{text-align:left; font-size:22px; line-height:33px; color:#000; margin:.5em; padding:.6em}
+
+.content{margin-right:auto; margin-left:auto; text-align:center; width:90%; background-color:#fff; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+pre{white-space:pre; white-space:pre-wrap; white-space:pre-line; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:-moz-pre-wrap; white-space:-hp-pre-wrap; word-wrap:break-word; padding:15px 15px 15px 5px; text-align:left; background-color:#ff6; outline:1px solid #e6db55; margin-bottom:15px}
+pre code{font-size:17px; line-height:1; font-weight:700; color:#cf1b41}
+p code{background-color:#ffff80; font-size:16px; font-weight:700; color:#cf1b41}
+code{font-family:"Source Code Proregular", monospace}
+
+
+cite{font-weight:600; font-size:19px}
+footer{background-color:#cf1b41; padding-bottom:10px}
+footer,footer p{color:#fff}
+footer p{margin-bottom:5px; padding-bottom:0}
+header{border-bottom:2px solid #939699}
+
+
+.branding{background:url("cfa-style-guide-title.png") 50% 50% no-repeat; height:300px; text-indent:-9999px}
+
+h2,h3{line-height:1; margin-top:15px; margin-bottom:10px; text-shadow:#999 0px 2px 3px; border-top:1px solid #939699; border-bottom:1px solid #939699; background-color:#ccc; padding-top:5px; padding-bottom:5px}
+h2{font-size:36px}
+h3{font-size:30px}
+
+
+
+
+img{display:block; font-size:0}
+
+.cabin{font-family:"cabinregular"}
+.oswald{font-family:"oswaldbook"}
+
+abbr{border:none; cursor:help; font-size:85%}
+abbr,.holla{text-transform:uppercase; font-variant:small-caps; letter-spacing:-1px}
+abbr.noholla,.noholla{text-transform:none; font-variant:normal}
+abbr.cfa{font-size:100%; font-weight:700; line-height:1}
+.noholla{text-decoration:none; font-family:cursive; font-size:85%; font-weight:400}
+
+th abbr{font-size:100%}
+
+em{}
+strong{}
+
+ul{list-style-type:none}
+li{text-align:left; text-indent:1em}
+
+a,a:link{color:#666; text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline; background-color:#666; color:#fff}
+a img{display:block; border:none}
+
+
+.box-shadow{-moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+
+figure{border-top:1px dotted #399fd3; border-bottom:1px dotted #399fd3; margin:5px auto}
+figcaption{display:block; margin-left:auto; margin-right:auto; text-align:center; font-weight:500; font-style:italic; font-size:17px; color:#444}
+figure img{border:1px solid #999; margin:5px auto; padding:5px; background-color:#fff}
+
+b{color:333; font-weight:500}
+strong{font-weight:700} /* b,strong{font-weight:bold} */
+
+
+
+/** tables **/
+table{border-collapse:collapse; border-spacing:0; padding-top:0.5em; padding-bottom:0.5em; margin:1.25em auto; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000; color:#000; width:80%}
+thead{background-color:#dbdbdb; text-shadow:#fff 0px 2px 3px}
+tbody{}
+tfoot{}
+tfoot p{padding:5px; font-size:15px; font-family:Arial, sans-serif; line-height:18px; margin: 0 auto}
+tfoot .cfa{font-size:15px; font-family:Arial, sans-serif}
+th{font-weight:700; text-align:center; vertical-align:top; font-size:20px; padding-top:0.5em; padding-bottom:0.5em; border-left:1px solid #999}
+td,caption{font-weight:normal; vertical-align:top}
+caption{text-align:center; font-style:normal; font-weight:500}
+caption p{margin:0; padding:5px; font-size:18px}
+tr{border-bottom:1px solid #ccc}
+tr:hover{background-color:#e2e2e2}
+thead tr{border-bottom:1px solid #999}
+thead tr:hover,tfoot tr:hover{background-color:transparent}
+td{text-indent:10px; padding:4px; text-align:left; font-size:18px}
+
+.stripey{background-color:#f2f2f2}
+
+
+
+::selection{background-color:#399fd3; padding-top:10px; padding-bottom:10px; color:#fff; font-weight:700}
+
+.cfa-text-red{color:#cf1b41}
+.cfa-bg-red{background-color:#cf1b41}
+
+.cfa-text-blue{color:#399fd3}
+.cfa-bg-blue{background-color:#399fd3}
+
+.cfa-text-grey{color:#939699}
+.cfa-bg-grey{background-color:#939699}
+
+.cfa-brigade-grey-text{color:#6d6e71}
+.cfa-brigade-grey-bg{background-color:#6d6e71}
+
+.kraken{width:750px}
+.oakland{width:406px}
+.chicago{width:639px}
+.cfalogo{width:400px}
+.flag-tag-example{width:539px}
+</style>
+
+  </head>
+  <body>
+    <div class="content">
+      <header><h1 class="branding">Code for America Style Guide</h1></header>
+      <main>
+        <p><strong><a href="http://codeforamerica.org/" title="Code for America">Code for America Style Guide</a></strong> is a simple collection of resources as prescribed by <a href="https://docs.google.com/document/d/1LIUcCLwmn-SR6_X93TOMIoIJOhNXd0t_27TAIOofdIo/edit#" title="Code for America Brigade Branding Guidelines">Brigade Branding Guidelines</a>, <a href="code-for-america-style-guide-1-2012-01-25.pdf" title="Code for America Style Guide 2012 01 25 (PDF)">Style Guide 2012 01 25 (<abbr title="Portable Document Format">pdf</abbr>)</a>, <a href="press-packet-2012-11.pdf" title="Code for America Press Packet 2012 11 (PDF)">Press Packet 2012 11 (<abbr>pdf</abbr>)</a>, <a href="http://brigade.codeforamerica.org/pages/tools" title="Tools for Organizers &#124; The Code for America Brigade">Tools for Organizers</a> and <a href="http://codeforamerica.org/logos/" title="Logos &#124; Code for America">Logos</a>. Images, fonts and <abbr title="Cascading Style Sheets">css</abbr> have been optimized for cross&#45;browser, cross&#45;platform, and <abbr title="Web Performance Optimization">wpo</abbr> so you can simply grab them and go!</p>
+        <h2>Fonts</h2>
+        <h3>Gotham</h3>
+        <p><strong>Gotham</strong> is the designated Code for America font&#45;family, and can be used in three flavors: <strong>Gotham Medium</strong>, <strong>Gotham Light</strong>, and <strong>Gotham Thin</strong>. Use <strong>Gotham Light</strong> at 12pt for Body Copy (I'm assuming this is for print). When adding subtitles to Code for America logo, use <b class="holla">all caps</b>. Use <strong>Gotham</strong> for all graphic text.</p>
+        <h3 class="cabin">Cabin</h3>
+        <p>Use <strong><a href="http://www.fontsquirrel.com/fonts/cabin" title="Cabin Font &#124; Font Squirrel">Cabin</a></strong> for graphic text if you do not have the <strong>Gotham</strong> font family. All <abbr title="HyperText Markup Language">html</abbr> body copy is <strong>Cabin</strong> or <strong>Helvetica Neue</strong>. <strong>Cabin</strong> can be used in place of <strong>Gotham</strong> or as a secondary font to <strong>Gotham</strong>. <strong>Cabin</strong> can be used in two flavors: <b>Cabin Regular</b> and <b>Cabin Italic</b>. The styles shown below can be used for easily displaying <strong>Cabin</strong> in web documents:</p>
+<pre><code>@font-face{font-family:"cabinregular";
+  src:url("cabin-regular-webfont.eot");
+  src:url("cabin-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("cabin-regular-webfont.woff") format("woff"),
+    url("cabin-regular-webfont.ttf") format("truetype");
+font-weight:normal; font-style:normal}
+
+@font-face{font-family:"cabinregular";
+  src:url("cabin-italic-webfont.eot");
+  src:url("cabin-italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("cabin-italic-webfont.woff") format("woff"),
+    url("cabin-italic-webfont.ttf") format("truetype");
+font-weight:normal; font-style:italic}
+</code></pre>
+        <h3 class="oswald">Oswald</h3>
+        <p><strong><a href="http://www.fontsquirrel.com/fonts/oswald" title="Oswald Font &#124; Font Squirrel">Oswald Regular</a></strong> can be used for specialty projects and reports; <strong>do not overuse</strong>. The styles shown below can be used for easily displaying <strong>Oswald</strong> in web documents:</p>
+<pre><code>@font-face{font-family:"oswaldbook";
+  src:url("oswald-regular-webfont.eot");
+  src:url("oswald-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("oswald-regular-webfont.woff") format("woff"),
+    url("oswald-regular-webfont.ttf") format("truetype");
+font-weight:normal; font-style:normal}
+.oswald{font-family:"oswaldbook"; text-transform:uppercase; letter-spacing:-1px}
+</code></pre>
+        <h3>Helvetica Neue</h3>
+        <p>Use either <strong>Helvetica Neue</strong> or <strong>Cabin</strong> for all <abbr>html</abbr> body text. The style declaration below is an optimal cross&#45;browser font stack when declaring <strong>Helvetica Neue</strong>:</p>
+<pre><code>body{font-family:"Helvetica Neue", Helvetica, "Lucida Grande", 
+  "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, Arial, sans-serif}
+</code></pre>
+        <p><strong>Helvetica Neue</strong> is only on <cite><a href="http://www.codestyle.org/css/font-family/sampler-SansSerif.shtml" title="Sans Serif Font Survey &#124; Code Style">1.4%</a></cite> of Windows boxes; to provide a rich cross&#45;platform typographic experience, serve up <strong>Cabin</strong> as it's fallback font&#45;face. First include <strong>Cabin</strong>'s <code>@font&#45;face</code> declaration, then add the following style declaration:</p>
+<pre><code>body{font-family:"Helvetica Neue", "cabinregular", Helvetica, "Lucida Grande", 
+  "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, Arial, sans-serif}
+</code></pre>
+        <h2>Color Palette</h2>                
+        <table summary="Code for America Color Palette Values">
+          <caption><p>The Brigade's color palette includes <strong class="cfa-text-red">red</strong>, <strong class="cfa-text-blue">blue</strong>, <strong class="cfa-text-grey">grey</strong> and <strong class="cfa-brigade-grey-text">brigade grey</strong>, values shown below:</p></caption>
+          <thead><tr><th>Name</th><th>Hexadecimal</th><th><abbr title="Cyan, Magenta, Yellow, and Key (black)">cmyk</abbr></th><th><abbr title="Red, Green, and Blue">rga</abbr></th><th><abbr title="Hue, Saturation, and Lightness">hsl</abbr></th></tr></thead>
+          <tfoot><tr><td colspan="5"><p><strong>Note</strong>: The <abbr>rgb</abbr> values for <abbr class="cfa">c<u class="noholla">f</u>a</abbr> Red and <abbr class="cfa">c<u class="noholla">f</u>a</abbr> Grey differ from what is in the resources; I used two separate sources to convert them, so I'm not sure which is correct.</p></td></tr></tfoot>
+          <tbody>
+            <tr><td><abbr title="Code for America" class="cfa">c<u class="noholla">f</u>a</abbr> Red</td><td>#cf1b41</td><td>C13 M94 Y69 K4</td><td>R204 G39 B62</td><td>(347, 77%, 46%)</td></tr>
+            <tr class="stripey"><td><abbr class="cfa">c<u class="noholla">f</u>a</abbr> Blue</td><td>#399fd3</td><td>C70 M24 Y0 K0</td><td>R57 G159 B211</td><td>(200, 64%, 53%)</td></tr>
+            <tr><td><abbr class="cfa">c<u class="noholla">f</u>a</abbr> Grey</td><td>#939699</td><td>C0 M0 Y0 K49</td><td>R149 G151 B154</td><td>(210, 3%, 59%)</td></tr>
+            <tr class="stripey"><td><abbr class="cfa">c<u class="noholla">f</u>a</abbr> Brigade Grey</td><td>#6d6e71</td><td>C0 M0 Y0 K49</td><td>R109 G110 B113</td><td>(225, 2%, 44%)</td></tr>
+          </tbody>
+        </table>            
+<pre><code>/** hexadecimal **/
+.cfa-text-red{color:#cf1b41}
+.cfa-bg-red{background-color:#cf1b41}
+/** rgb **/
+.cfa-text-red{color:rgb(207, 27, 65)}
+.cfa-bg-red{background-color:rgb(207, 27, 65)}
+/** hsl **/
+.cfa-text-red{color:hsl(347, 77%, 46%)}
+.cfa-bg-red{background-color:hsl(347, 77%, 46%)}
+
+/** hexadecimal **/
+.cfa-text-blue{color:#399fd3}
+.cfa-bg-blue{background-color:#399fd3}
+/** rgb **/
+.cfa-text-blue{color:rgb(57, 159, 211)}
+.cfa-bg-blue{background-color:rgb(57, 159, 211)}
+/** hsl **/
+.cfa-text-blue{color:hsl(200, 64%, 53%)}
+.cfa-bg-blue{background-color:hsl(200, 64%, 53%)}
+
+/** hexadecimal **/
+.cfa-text-grey{color:#939699}
+.cfa-bg-grey{background-color:#939699}
+/** rgb **/
+.cfa-text-grey{color:rgb(147, 150, 153)}
+.cfa-bg-grey{background-color:rgb(147, 150, 153)}
+/** hsl **/
+.cfa-text-grey{color:hsl(210, 3%, 59%)}
+.cfa-bg-grey{background-color:hsl(210, 3%, 59%)}
+
+/** hexadecimal **/
+.cfa-brigade-grey-text{color:#6d6e71}
+.cfa-brigade-grey-bg{background-color:#6d6e71}
+/** rgb **/
+.cfa-brigade-grey-text{color:rgb(109, 110, 113)}
+.cfa-brigade-grey-bg{background-color:rgb(109, 110, 113)}
+/** hsl **/
+.cfa-brigade-grey-text{color:hsl(225, 2%, 44%)}
+.cfa-brigade-grey-bg{background-color:hsl(225, 2%, 44%)}
+</code></pre>
+        <h2>Images</h2>
+        <p>Images included have been approved for use by <abbr class="cfa">c<u class="noholla">f</u>a</abbr> and come in two flavors: the originals (<code>i/originals</code>) and optimized (<code>i/kraken-optimized</code>).</p>
+        <figure class="kraken">
+          <img src="kraken.io-optimization.png" alt="Image Optimization Savings via Kraken.io" />
+          <figcaption>Image optimization savings via <a href="http://kraken.io/" title="Kraken Image Optimizer">kraken.io</a></figcaption>
+        </figure>
+        <h3>Logos</h3>
+        <figure class="cfalogo">
+          <img src="http://codeforamerica.org/logo.png" alt="Do Not Make Any Derivatives of the CfA Logo" />
+          <figcaption><strong>Please make no derivatives of the <a href="http://codeforamerica.org/logo.png" title="CfA Logo"><abbr class="cfa">c<u class="noholla">f</u>a</abbr> logo</a></strong>!</figcaption>
+        </figure>
+        <p>Suggestions for creating your own logo: use the <strong><a href="http://dribbble.s3.amazonaws.com/users/134451/screenshots/848976/dribbble_flag_tag_1x.png" title="CfA Flag Tag">Flag Tag</a></strong> with the words "Code for [x]" or your Brigade's name below it, like so:</p>
+        <figure class="flag-tag-example">
+          <img src="flag-tag-example.png" alt="Code for America Flag Tag Logo Example" />
+          <figcaption>Code for America Flag Tag Logo Example</figcaption>
+        </figure>
+        <p>Use the <strong><a href="http://codeforamerica.org/wp-content/uploads/2013/03/BrigadeIcon.png" title="CfA Brigade Helmet Icon">Brigade Helmet Icon</a></strong> with the words "Code for [x]" or your Brigade's name. <em>Do not mimic the <strong><a href="http://codeforamerica.org/wp-content/uploads/2012/01/CfA_Brigade_logo.png" title="CfA Brigade Logo">Brigade&#47;<abbr class="cfa">c<u class="noholla">f</u>a</abbr> Logo</a></strong></em>! Use the <strong>flag tag</strong> and insert a local icon, logo, or symbol:</p>
+        <figure class="oakland">
+          <img src="code-for-oakland.png" alt="Code for Oakland CfA Brigade Logo" />
+          <figcaption><a href="http://codeforoakland.org/" title="Code for Oakland &#124; Cfa Brigade">Code for Oakland Logo</a></figcaption>
+        </figure>
+        <figure class="chicago">
+          <img src="code-for-chicago.jpg" alt="Code for Chicago CfA Brigade Logo" />
+          <figcaption>Code for Chicago</figcaption>
+        </figure>
+        <p><strong>Note</strong>: if you want to change out the <strong>Flag Tag</strong>, ask <abbr class="cfa">c<u class="noholla">f</u>a</abbr> headquarters for support and give them a couple of weeks to respond.</p>
+        <h3>Header&#47;Letterhead Treatment</h3>
+        <p>Logo can be placed in top left&#47;right corners, but not in the center.</p>
+        <h2>Word Consistency</h2>
+        <p>The "<strong>f</strong>" in Code for America is <em>always</em> lowercase. The abbreviation Code for America should read "<strong><abbr class="cfa">c<u class="noholla">f</u>a</abbr></strong>"; the single exception is when <strong class="holla">code for america</strong> is in a heading&#47;title and the entire name is capitalized to keep style with the rest of the document.</p>
+        <p>"<strong>Datasets</strong>" is one word.</p>
+        <p>"<strong>Open Source</strong>" is two words, "<strong>opensourcing</strong>" is one word.</p>
+        <p><abbr title="Uniform Resource Locator">url</abbr>s do not include "<strong>www</strong>": good <code>http://codeforamerica.org</code>. not good: <code>http://www.codeforamerica.org</code>.</p>
+      </main>
+      <footer>
+        <p>Some things I'd like to include:</p>
+        <ul>
+          <li>Print Style Sheet</li>
+          <li>Favicons</li>
+          <li><abbr>html</abbr> Typography <abbr>css</abbr>, such as <code>&#60;blockquote&#62;</code>, <code>&#60;cite&#62;</code>, <abbr class="noholla" title="Et Cetera">etc.</abbr></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
+

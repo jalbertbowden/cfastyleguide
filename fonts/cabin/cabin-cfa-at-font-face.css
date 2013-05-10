@@ -1,0 +1,13 @@
+@font-face{font-family:"cabinregular";
+  src:url("regular/cabin-regular-webfont.eot");
+  src:url("regular/cabin-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("regular/cabin-regular-webfont.woff") format("woff"),
+    url("regular/cabin-regular-webfont.ttf") format("truetype");
+font-weight:normal; font-style:normal}
+@font-face{font-family:"cabinregular";
+  src:url("italic/cabin-italic-webfont.eot");
+  src:url("italic/cabin-italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("italic/cabin-italic-webfont.woff") format("woff"),
+    url("italic/cabin-italic-webfont.ttf") format("truetype");
+font-weight:normal; font-style:italic}
+
