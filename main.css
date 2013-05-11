@@ -1,17 +1,3 @@
-/** text-shadow: 0px 2px 3px #555;  **/
-/** .content{margin-left:auto; margin-right:auto; width:900px; outline:1px solid #000} **/
-/** header:before{content:""; position:fixed; top:300px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)} **/
-/**
-div.cabin-regular{font-family:"cabinregular";}
-div.cabin-bold{font-family:"cabinregular"; font-weight:700}
-div.cabin-bolditalic{font-family:"cabinregular"; font-weight:700; font-style:italic}
-div.cabin-italic{font-family:"cabinregular"; font-style:italic}
-div.cabin-medium{font-family:"cabinregular"; font-weight:500;}
-div.cabin-mediumitalic{font-family:"cabinregular"; font-style:italic}
-div.cabin-semibold{font-family:"cabinregular"; font-weight:600;}
-div.cabin-semibolditalic{font-family:"cabinregular"; font-weight:600; font-style:italic}
-**/
-
 body,html,div,header,main,footer,p,section,nav,ul,li,a,h1,h2,h3,h4,cite,code,abbr,pre,figure,figcaption,u,span{margin:0; padding:0}
 header,footer,main,figure,figcaption{display:block}
 html{overflow-y:scroll}
@@ -19,16 +5,16 @@ html,body{height:100%}
 body{font-family:"Helvetica Neue", "cabinregular", Helvetica, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, Arial, sans-serif; text-align:center; -webkit-font-smoothing:antialiased; background-color:#939699}
 body:before{content:""; position:fixed; top:-15px; left:0; width:100%; height:15px; z-index:100; -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); -moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); box-shadow:0px 0px 10px rgba(0,0,0,.9)}
 
-p{text-align:left; font-size:35px; line-height:45px; color:#000; margin:.75em; padding:.8em}
+p{text-align:left; font-size:47px; line-height:60px; color:#000; margin:.75em; padding:.8em}
 
 .content{margin-right:auto; margin-left:auto; text-align:center; width:100%; background-color:#fff; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
-pre{white-space:pre; white-space:pre-wrap; white-space:pre-line; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:-moz-pre-wrap; white-space:-hp-pre-wrap; word-wrap:break-word; padding:15px 15px 15px 5px; text-align:left; background-color:#ff6; outline:1px solid #e6db55; margin-bottom:15px}
-pre code{font-size:17px; line-height:1; font-weight:700; color:#cf1b41}
-p code{background-color:#ffff80; font-size:16px; font-weight:700; color:#cf1b41}
+pre{white-space:pre; white-space:pre-wrap; white-space:pre-line; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:-moz-pre-wrap; white-space:-hp-pre-wrap; word-wrap:break-word; padding:1em .25em; text-align:left; background-color:#ff6; outline:1px solid #e6db55; margin-bottom:15px}
+pre code{font-size:35px; line-height:1; font-weight:700; color:#cf1b41}
+p code{background-color:#ffff80; font-size:47px; font-weight:700; color:#cf1b41}
 code{font-family:"Source Code Proregular", monospace}
 
 
-cite{font-weight:600; font-size:19px}
+cite{font-weight:600; font-size:45px}
 footer{background-color:#cf1b41; padding-bottom:10px}
 footer,footer p{color:#fff}
 footer p{margin-bottom:5px; padding-bottom:0}
@@ -37,10 +23,10 @@ header{border-bottom:2px solid #939699}
 
 .branding{background:url("cfa-style-guide-title.png") 50% 50% no-repeat; height:300px; text-indent:-9999px}
 
-h2,h3,h4{line-height:1; margin-top:15px; margin-bottom:10px; text-shadow:#999 0px 2px 3px; border-top:1px solid #939699; border-bottom:1px solid #939699; background-color:#ccc; padding-top:5px; padding-bottom:5px}
-h2{font-size:80px; padding:1em}
-h3{font-size:65px; padding:.8em}
-h4{font-size:50px; padding:.5em}
+h2,h3,h4{line-height:1; margin-top:15px; margin-bottom:10px; text-shadow:#999 0px 2px 3px; border-top:1px solid #939699; border-bottom:1px solid #939699}
+h2{font-size:80px; padding:1em; background-color:#ccc}
+h3{font-size:65px; padding:.8em; background-color:#888}
+h4{font-size:50px; padding:.5em; background-color:#999}
 
 .clearleft{clear:left; float:none}
 
@@ -49,8 +35,8 @@ h4{font-size:50px; padding:.5em}
 
 img{display:block; font-size:0}
 
-.cabin{font-family:"cabinregular"}
-.oswald{font-family:"oswaldbook"}
+.cabin{font-family:"cabinregular", sans-serif}
+.oswald{font-family:"oswaldbook", sans-serif}
 
 abbr{border:none; cursor:help; font-size:85%}
 abbr,.holla{text-transform:uppercase; font-variant:small-caps; letter-spacing:-1px}
@@ -130,3 +116,20 @@ td{text-indent:10px; padding:4px; text-align:left; font-size:18px}
 
 .transbg{background-color:#399fd3}
 .fakecaption{display:block; margin:3px auto; text-align:center; font-size:24px; line-height:24px}
+
+
+/** iPhone (landscape) **/
+@media screen and (max-width: 480px) {}
+
+/** iPhone (portrait) **/
+@media screen and (max-width: 320px) {}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 5.1 ),
+  only screen and (min-device-pixel-ratio: 5.1 ) {}
+/** iPhone 4 **/
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {}
+
+/** iphone5 and ipod touch 5th gen **/
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {}
+
