@@ -21,7 +21,7 @@ body:before{content:""; position:fixed; top:-15px; left:0; width:100%; height:15
 
 p{text-align:left; font-size:35px; line-height:45px; color:#000; margin:.75em; padding:.8em}
 
-.content{margin-right:auto; margin-left:auto; text-align:center; width:100%; background-color:#fff; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
+.content{margin-right:auto; margin-left:auto; text-align:center; width:90%; background-color:#fff; -moz-box-shadow:0 0 4px #000; -ms-box-shadow:0 0 4px #000; -o-box-shadow:0 0 4px #000; -webkit-box-shadow:0 0 4px #000; box-shadow:0 0 4px #000}
 pre{white-space:pre; white-space:pre-wrap; white-space:pre-line; white-space:-pre-wrap; white-space:-o-pre-wrap; white-space:-moz-pre-wrap; white-space:-hp-pre-wrap; word-wrap:break-word; padding:15px 15px 15px 5px; text-align:left; background-color:#ff6; outline:1px solid #e6db55; margin-bottom:15px}
 pre code{font-size:17px; line-height:1; font-weight:700; color:#cf1b41}
 p code{background-color:#ffff80; font-size:16px; font-weight:700; color:#cf1b41}
@@ -38,9 +38,9 @@ header{border-bottom:2px solid #939699}
 .branding{background:url("cfa-style-guide-title.png") 50% 50% no-repeat; height:300px; text-indent:-9999px}
 
 h2,h3,h4{line-height:1; margin-top:15px; margin-bottom:10px; text-shadow:#999 0px 2px 3px; border-top:1px solid #939699; border-bottom:1px solid #939699; background-color:#ccc; padding-top:5px; padding-bottom:5px}
-h2{font-size:80px; padding:1em}
-h3{font-size:65px; padding:.8em}
-h4{font-size:50px; padding:.5em}
+h2{font-size:48px}
+h3{font-size:40px}
+h4{font-size:35px}
 
 .clearleft{clear:left; float:none}
 
